@@ -1,0 +1,72 @@
+@import url('https://fonts.google.com/specimen/Inter');
+body{
+    background: #000;
+}
+.main {
+    background: hsl(0, 0%, 12%);
+    font-family: "Inter", sans-serif;
+    align-items: center;
+    justify-content: center;
+    width: 400px; /* Set your desired fixed width */
+    height: auto; /* Auto will work for */
+    margin: 0 auto; /* This will center the div horizontally */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.profile{
+    text-align: center; /* Center the content inside the profile div */
+    border-radius: 10px; /* Add border-radius for a rounded appearance if needed */
+    color:  hsl(0, 0%, 100%);
+
+}
+.info .name{
+    font-weight: 600;
+    font-size: 20px;
+}
+.info .description{
+    color: hsl(0, 0%, 100%);
+}
+.info .address{
+    color: hsl(54, 88%, 48%);
+    font-weight: 550;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    /* width: 80%; */
+    align-items: center;
+    width: fit-content; /* Set the container width to fit its content */
+    margin: 0 auto; /* Center the container horizontally */
+}
+a{
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+    font-size: 10px;
+    font-weight: 550;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    width: 300px; /* Make anchors take full width within the container */
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    text-align: center; 
+}  
+
+a:hover{
+    background-color: hsla(96, 93%, 49%, 0.959);
+    color: hsl(0, 90%, 49%);
+}
+
+@media screen and (max-width: 375px) {
+    .main{
+        height: auto;
+    }
+    
+}

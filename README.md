@@ -1,2 +1,2 @@
-# Social Linl Profile
- Frontend code
+# Social Link Profile
+ Frontend Code
